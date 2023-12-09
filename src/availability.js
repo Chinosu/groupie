@@ -5,8 +5,7 @@ export default class Availability {
   }
 
   equals(availability) {
-    const { thisDay, thisTime } = this;
-    const { day, time } = availability;
-    return thisDay === day && thisTime === time;
+    const { day, time } = availability
+    return this.day === day && this.time === time;
   }
 }
