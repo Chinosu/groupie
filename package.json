@@ -1,0 +1,11 @@
+{
+  "name": "unnamed",
+  "version": "0.1.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo TODO\""
+  },
+  "author": "",
+  "license": "ISC"
+}
