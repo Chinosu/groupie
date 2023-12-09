@@ -1,7 +1,6 @@
 export default class Availability {
-  constructor(day, start, end) {
+  constructor(day, start) {
     this.day = day;
     this.start = start;
-    this.end = end;
   }
 }
