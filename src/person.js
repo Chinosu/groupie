@@ -1,8 +1,8 @@
 export default class Person
 {
-  constructor(name, availabilities) {
+  constructor(name, ...availabilities) {
     this.name = name;
-    this.availabilities = availabilities;
+    this.availabilities = availabilities.flat();
   }
 
   updateAvailabilities(newAvailabilities) {
