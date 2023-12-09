@@ -4,9 +4,9 @@ export default class Availability {
     this.time = time;
   }
 
-  static same(availabilityOne, availabilityTwo) {
-    const { dayOne, timeOne } = availabilityOne;
-    const { dayTwo, timeTwo } = availabilityTwo;
-    return dayOne === dayTwo && timeOne === timeTwo;
+  equals(availability) {
+    const { thisDay, thisTime } = this;
+    const { day, time } = availability;
+    return thisDay === day && thisTime === time;
   }
 }
