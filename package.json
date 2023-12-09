@@ -4,7 +4,7 @@
   "description": "TODO",
   "main": "index.js",
   "scripts": {
-    "test": "\"echo TODO\""
+    "test": "echo TODO"
   },
   "author": "",
   "license": "ISC"
