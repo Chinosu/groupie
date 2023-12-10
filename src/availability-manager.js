@@ -41,4 +41,8 @@ export default class AvailabilityManager {
       });
     });
   }
+
+  people() {
+    return Array.from(new Set(this.timeslots.flat().flatMap(time => Array.from(time))));
+  }
 }
