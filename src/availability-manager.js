@@ -27,7 +27,6 @@ export default class AvailabilityManager {
     this.timeslots.forEach((day, day_i) => day.forEach((_, time_i) => {
       if (newTimeslots?.some(newTimeslot => newTimeslot.day === day_i && newTimeslot.time === time_i)) {
         this.timeslots[day_i][time_i].add(name);
-        console.log('y');
       } else {
         this.timeslots[day_i][time_i].delete(name);
       }
