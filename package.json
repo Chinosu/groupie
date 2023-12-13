@@ -1,7 +1,7 @@
 {
   "name": "groupie",
   "version": "0.1.0",
-  "description": "TODO",
+  "description": "Online tool for scheduling meetings and events",
   "main": "index.js",
   "scripts": {
     "test": "echo TODO"
