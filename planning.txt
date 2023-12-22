@@ -1,0 +1,35 @@
+  = person =
+someone who enters their availability.
+we want to find times where most people are available.
+
+  = meet =
+a set of timeslots for a group of people to submit their availabilities
+
+
+[/]
+- [to new meet]
+- [to meet]
+
+[new meet]
+- enter date range
+- enter description
+- FUTURE: enter preferred times
+- give user a new meet ID
+- give user meet link
+- [to meet]
+
+[enter meet ID]
+- accept meet ID
+- [to meet]
+
+[meet]
+- FUTURE: different timezone support
+- tabbed pages:
+- to [submit availabilities]
+- to [view availabilities]
+
+[submit availabilities]
+- enter name
+- select time ranges
+
+[view availabilities]
