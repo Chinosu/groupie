@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import getSession from './login'
+import getSession from './lib/login'
 
 export default function Home() {
   const ret = getSession();
